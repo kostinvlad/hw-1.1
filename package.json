@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "start": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "build":"babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostinvlad/hw-1.1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Vlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostinvlad/hw-1.1/issues"
+  },
+  "homepage": "https://github.com/kostinvlad/hw-1.1#readme"
+}
